@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+body{
+    
+    background: url(../image/bg.gif);
+    background-size: cover;
+    
+}
+
+.wrapper{
+    width: 990px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.head img{
+   margin-left: 80px;
+}
+
+.submit{
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+nav{
+    width: 990px;
+    height: 40px;
+    background-color: rgb(71, 135, 245);
+    
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover{
+    background: #fff;
+    color: rgb(71, 135, 245);
+    transition: 1s;
+}
+
+.search{
+    width: auto;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+section{
+    width: 660px;
+    float: left;
+}
+section img{
+    float: left;
+
+}
+section article{
+    padding: 10px;
+    font-size: 16px;
+}
+section p{
+    text-align: justify;
+}
+.ps{
+    margin-left: 10px;
+}
+aside{
+    width: 300px;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+aside ul{
+    margin-left: 30px;
+    padding: 15px;
+    line-height: 30px;
+}
+footer{
+    width: 990px;
+    background-color: rgb(71, 135, 245);
+    color: #fff;
+    height: 60px;
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+}
+footer p{
+    padding: 20px;
+}

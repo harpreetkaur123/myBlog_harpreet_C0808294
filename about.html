@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exe 2</title>
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="head">
+            <img src="image/logo.png" alt="logo" width="800px" height="130px">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="other.html">Techniques</a></li>
+                <li><a href="other.html">Rules</a></li>
+                <li><a href="other.html">Protection</a></li>
+
+            </ul>
+            <input type="search" name="search" class="search" placeholder="Search Here...">
+            <input type="submit" name="submit" class="submit" value="submit">
+        </nav>
+        <aside>
+            <h3>To Learn More:</h3>
+
+            <ul>
+                <li><a href="#">Topic1</a></li>
+                <li><a href="#">Topic1</a></li>
+                <li><a href="#">Topic1</a></li>
+            </ul>
+            <h3>To Learn More:</h3>
+
+            <ol>
+                <li><a href="#">Topic1</a></li>
+                <li><a href="#">Topic1</a></li>
+                <li><a href="#">Topic1</a></li>
+                <li><a href="#">Topic1</a></li>
+        
+            </ol>
+        </aside>
+        <section class="sli">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <div class="slide one">
+                        <img src="image/1.png" alt="" width="600px">
+                    </div>
+                    <div class="slide">
+                        <img src="image/2.png" alt="" width="600px">
+                    </div>
+                    <div class="slide">
+                        <img src="image/3.png" alt="" width="600px">
+                    </div>
+                </div>
+
+                <div class="navigation-a">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+                <div class="navigation-m">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="bsection">
+            <h2>
+                Securing Google Chrome
+            </h2>
+            <video width="320" height="180" controls>
+                <source src="image/Securing_Google_Chrome.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video> 
+
+            <article>
+                <h3 class="ps">
+                    Why Is it Important?
+                </h3>
+                <p class="ps">
+                    Data privacy concerns apply to all sensitive information that organizations handle,
+                     including that of customers, shareholders, and employees. Often, this information 
+                     plays a vital role in business operations, development, and finances.
+
+Data privacy helps ensure that sensitive data is only accessible to approved parties. It prevents 
+
+criminals from being able to maliciously use data and helps ensure that organizations meet regulatory 
+requirements.
+
+Data privacy is enforced by data protection regulations. Non-compliance may result in monetary fines
+ for more info see <a href="image/see.pdf">PDF</a>.
+                </p>
+            </article>
+
+        </section>
+
+        
+        <footer>
+            <p>Copyright &copy; Reserved to Harpreet</p>
+        </footer>
+
+    </div>
+
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter>3){
+            counter = 1;
+        }
+    },4000)
+</script>
+
+
+</body>
+</html>
